@@ -42,7 +42,7 @@ query_vector = vectorizer.transform([query_processada])
 pontuacao = cosine_similarity(query_vector, tfidf_matrix).flatten()
 ranking = np.argsort(pontuacao)[::-1]
 
-print("Documentos Pré-Processados:\n")
+print("Documentos Processados:\n")
 for i, doc in enumerate(docs_processado):
     print(f"Doc {i}: {doc}\n")
 print("\nVocabulario:")
