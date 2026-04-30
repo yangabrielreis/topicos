@@ -1,0 +1,2 @@
+pip install requests pandas tqdm opencv-python torch torchvision ultralytics scikit-learn matplotlib
+source .venv/bin/activate
